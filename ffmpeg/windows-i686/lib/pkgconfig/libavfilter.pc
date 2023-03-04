@@ -1,0 +1,14 @@
+prefix=../release
+exec_prefix=${prefix}
+libdir=../release/lib
+includedir=../release/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 8.44.100
+Requires: libavutil >= 57.28.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,3 @@
+workspace = { members = [ "amf", "video_codec_sdk","vpl"], resolver = "2" }
+
+
